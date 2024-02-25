@@ -1,0 +1,116 @@
+<style>
+    .heading {
+        color: rgb(3, 105, 173);
+        font-weight: bolder;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .heading:hover {
+        color: brown;
+    }
+    .product {
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .add_to_cart {
+        background-color: rgb(255, 217, 0);
+        font-weight: bold;
+        font-size: small;
+        border: none;
+        margin-right: 10px;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        transition: opacity 0.3s;
+        transition: background-color 0.3s;
+    }
+    .add_to_cart:hover {
+        background-color: rgb(255, 123, 0);
+    }
+    .add_to_cart:active {
+        opacity: 0.7;
+    }
+    .buy_now {
+        background-color: orange;
+        border: none;
+        font-weight: bold;
+        font-size: small;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        transition: opacity 0.3s;
+        transition: background-color 0.3s;
+        transition: padding 0.7s;
+    }
+    .buy_now:hover {
+        padding: 20 40;
+        background-color: rgb(255, 123, 0);
+    }
+    .buy_now:active {
+        opacity: 0.7;
+    }
+    .price {
+        color: rgb(5, 119, 5);
+        font-weight: bolder;
+    }
+    .numbers {
+        color: blue;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        background: none;
+        border: none;
+        text-decoration: underline;
+    }
+    .back {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 3px;
+        border-color: grey;
+        border-style: solid;
+    }
+</style>
+<a class="heading" href="https://amazon.com">
+        Back to Amazon
+</a>
+<p class="product">
+    Nike Black Running Shoes
+</p>
+
+<p class="price">
+    $39 - in stock.
+</p>
+
+<p>
+    Free delivery tomorrow.
+</p>
+
+<button class="add_to_cart">
+    Add to Cart
+</button>
+<button class="buy_now">
+    Buy now
+</button>
+<p>
+    <button class="back">
+        Back
+        
+        <button class="numbers">
+            1
+        </button>
+        <button class="numbers">
+            2
+        </button>
+        <button class="numbers">
+            3
+        </button>
+        <button class="back">
+            Next
+        </button>
+    </button>
+</p>
