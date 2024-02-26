@@ -1,0 +1,14 @@
+.heading {
+    line-height: 1px;
+    font-family: Montserrat;
+    font-weight:bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+.order {
+    font-family: Montserrat;
+    text-align: center;
+}
+.under {
+    text-decoration: underline;
+}
