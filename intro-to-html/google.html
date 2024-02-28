@@ -7,29 +7,59 @@
         <style>
             .search {
                 width: 200px;
-                margin-left: 100px;
-                border: solid;
-                border-color: grey;
-                border-width: 1px;
+                margin-bottom: 30px;
+                border: none;
                 border-radius: 20px;
                 padding-top: 10px;
                 padding-bottom: 10px;
                 padding-right: 300px;
                 padding-left: 10px;
+                box-shadow: 1px 5px 8px rgb(182, 182, 182);
             }
             .logo {
-                margin-left: 250px;
-                box-sizing: border-box;
-                display: block;
                 width: 200px;
                 height: 50px;
                 object-fit: cover;
                 object-position: center;
             }
+            .case{
+                border: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: center;
+                justify-content: center;
+            }
+            .extra {
+                background-color: rgb(240, 240, 240);
+                border: none;
+                border-radius: 3px;
+                margin-right: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                display: inline-block;
+                font-weight: bold;
+            }
         </style>
     </head>
     <body>
-        <img class="logo" src="google-logo.png">
-        <input rel="text" placeholder="Search Google or type a URL" class="search">
+        <div class="case">
+            <div>
+                <img class="logo" src="pics/google-logo.png">
+            </div>
+            <div>
+                <input rel="text" placeholder="Search Google or type a URL" class="search">
+            </div>
+            <div>
+                <button class="extra">
+                    Google Search
+                </button>
+                <button class="extra">
+                    I'm Feeling Lucky
+                </button>
+            </div>
+            
+        </div>
     </body>
 </html>
