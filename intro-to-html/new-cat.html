@@ -3,22 +3,46 @@
     <head>
         <title>catbook.com</title>
         <style>
+            .case, .add, .pic {
+                font-family: Arial, Helvetica, sans-serif;
+            }
             .case {
-                width: 500px;
+                display: inline-block;
+                margin-right: 15px;
+                width: 150px;
+                padding-bottom: 5px;
+                box-shadow: 1px 1px 4px rgb(212, 212, 212);
             }
             .pic {
                 object-fit: contain;
-                width: 100px;
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                object-position: center;
             }
             .add {
-                background-color: rgb(0, 112, 216);
+                margin-left: 5px;
+                background-color: rgb(12, 133, 247);
                 border: none;
-                border-radius: 3px;
-                padding-top: 5px;
-                padding-bottom: 5px;
-                padding-left: 10px;
-                padding-right: 10px;
+                border-radius: 2px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
                 color: white;
+            }
+            .name {
+                margin-top: 10px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+                font-weight: bold;
+            }
+            .friend {
+                color: gray;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                margin-left: 5px;
+                font-size: small;
             }
         </style>
     </head>
@@ -29,7 +53,31 @@
                 Oliver
             </p>
             <p class="friend">
-                2 mutual friends
+                5 mutual friends
+            </p>
+            <button class="add">
+                Add Friend
+            </button>
+        </div>
+        <div class="case">
+            <img class="pic" src="pics/johnny.jpg">
+            <p class="name">
+                Johnny
+            </p>
+            <p class="friend">
+                30 mutual friends
+            </p>
+            <button class="add">
+                Add Friend
+            </button>
+        </div>
+        <div class="case">
+            <img class="pic" src="pics/garfield-movie-1014x570.jpg">
+            <p class="name">
+                Garfield
+            </p>
+            <p class="friend">
+                56 mutual friends
             </p>
             <button class="add">
                 Add Friend
