@@ -1,0 +1,36 @@
+.searchbox {
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+}
+body {
+    margin: 0;
+}
+.header {
+    display: flex;
+    background-color: lightblue;
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-section  {
+    background-color: lightcoral;
+    width: 200px;
+    margin-right: 100px;
+}
+.middle-section {
+    background-color: lightgreen;
+    flex: 1;
+    max-width: 400px;
+}
+.left-section {
+    background-color: lightcoral;
+    width: 300px;
+    margin-left: 30px;
+}

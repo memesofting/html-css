@@ -4,53 +4,22 @@
         <title>
             youtube.com
         </title>
-        <style>
-            .searchbox {
-                display: block;
-                margin-left: 250px;
-                margin-bottom: 10px;
-            }
-            .video-thumbnail {
-                width: 100%;
-            }
-            .video {
-                
-            }
-            .profile-thumbnail {
-                width: 40px;
-                border-radius: 40px;
-                margin-right: 10px;
-            }
-            .video-details {
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: small;
-            }
-            .video-title, .video-author {
-                margin-top: 0;
-            }
-            .video-title {
-                font-size: 13px;
-                font-weight: bold;
-            }
-            .video-author {
-                font-size: 8;
-                color: rgb(97, 97, 97);
-            }
-            .video-details-grid {
-                display: grid;
-                grid-template-columns: 50px 1fr;
-            }
-            .video-grid {
-                margin-top: 20px;
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                column-gap: 15px;
-                row-gap: 25px;
-            }
-        </style>
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
     </head>
     <body>
-        <input rel="text" placeholder="Search" class="searchbox">
+        <div class="header">
+            <div class="right-section">
+                right
+            </div>
+            <div class="middle-section">
+                <input rel="text" placeholder="Search" class="searchbox">
+            </div>
+            <div class="left-section">
+                left
+            </div>  
+        </div>
         
         <div class="video-grid">
             <div class="video">
@@ -180,6 +149,5 @@
                 </div>
             </div>
         </div>
-        
     </body>
 </html>
